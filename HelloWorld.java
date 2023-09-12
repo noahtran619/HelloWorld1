@@ -21,6 +21,7 @@ public class HelloWorld
         System.out.println(string2);
         System.out.println(string3);
         System.out.println(stringsEqual);
+        String[] strArray = {"Alpha","Bravo","Charlie","Delta","Echo"};
     }
 }
 
