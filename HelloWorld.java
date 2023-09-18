@@ -27,12 +27,15 @@ public class HelloWorld
         for (int iterate = 0; iterate < strArray.length; iterate++) {
             System.out.println(strArray[iterate]);
         }
-        System.out.println(" ");
         for (String value : strArray) {
             System.out.print(value + " ");
         }
+        System.out.println(" ");
         for (int iterate = 0; iterate < strArray.length; iterate++) {
             System.out.print(strArray[iterate]);
+            if (iterate < strArray.length - 1) {
+                System.out.print("-");
+            }
         }
         }
     }
